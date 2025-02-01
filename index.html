@@ -40,7 +40,7 @@
               Browse<span class="text-[#FFDC26] text-2xl">4</span>Pets
             </h1>
           </div>
-          
+
           <!-- Navigation Links -->
           <div class="hidden md:flex gap-10 text-lg">
             <ul class="flex gap-10">
@@ -49,20 +49,23 @@
               <li>Contact</li>
             </ul>
           </div>
-          
+
           <!-- Buttons -->
           <div class="hidden md:flex gap-5">
             <button class="px-4 py-2 border rounded-lg">Login</button>
             <button class="px-4 py-2 bg-[#FFDC26] rounded-lg">Register</button>
           </div>
-          
+
           <!-- Hamburger Menu -->
           <button id="menu-toggle" class="md:hidden text-2xl">&#9776;</button>
         </div>
-        
+
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center bg-white w-full py-4 space-y-4">
-          <ul class="flex flex-col gap-4 text-lg ">
+        <div
+          id="mobile-menu"
+          class="hidden md:hidden flex flex-col items-center bg-white w-full py-4 space-y-4"
+        >
+          <ul class="flex flex-col gap-4 text-lg">
             <li class="">Find a pet</li>
             <li>Breed</li>
             <li>Contact</li>
@@ -73,36 +76,103 @@
           </div>
         </div>
       </nav>
-      
-    
-      
     </header>
 
     <main>
+      
       <!-- Banner -->
-       <div class="px-4 md:flex md:container md:mx-auto">
+      <div class="px-4 pt-8 md:pt-12 md:flex md:container md:mx-auto">
         <!-- Content -->
-         <div>
-          <h1 class="adlam-display-regular text-2xl md:text-5xl">Pamper Your Pet, Because They Deserve the Bes</h1>
-          <p class="sora">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-          <button class="px-4 py-2 bg-[#FFDC26] rounded-lg sora">Register</button>
-         </div>
-         <!-- Image -->
-          <div class="w-1320px">
-            <img src="../c1-assets/cat-big.png" alt="">
-          </div>
-       </div>
-       <!-- Category -->
-        <div class="px-4 md:container md:mx-auto">
-          <h2>Browse By Categories</h2>
-          <div>
-            <div>
-              <img src="" alt="">
-              <h1>Dog</h1>
-              <p>3 items</p>
+        <div class="md:w-700">
+          <h1 class=" sm:text-2xl adlam-display-regular md:text-7xl">
+            Pamper Your Pet, Because They Deserve the Best
+          </h1>
+          <p class="sora pt-3">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button class="px-4 py-2 bg-[#FFDC26] rounded-lg sora mt-3">
+            Find a pet
+          </button>
+        </div>
+        <!-- Image -->
+        <div class="md:w-1000 mt-4 md:mt-0">
+          <img
+            src="../c1-assets/cat-big.png"
+            alt="Happy Cat"
+            class="w-full h-auto object-cover"
+          />
+        </div>
+      </div>
+
+      <!-- Category -->
+      <div class="px-4 md:container md:mx-auto">
+        <h2 class="adlam-display-regular text-4xl">Browse By Categories</h2>
+        <div>
+          <div class="mt-12 space-y-2 grid grid-cols-2 gap-10 md:flex">
+            <!-- 1st Card -->
+            <div
+              class="w-[200px] h-[254px] pt-4 border border-[#F9DF8A] rounded-2xl  bg-[#F9DF8A] text-center"
+            >
+             <div class="border w-[104px] h-[104px] rounded-full items-center bg-[#FFFFFF] mt-6 ml-13">
+              <img src="c1-assets/dog-cartoon.png" class="pt-7 pl-7"  alt="" />
+             </div>
+              <h1 class="text-center adlam-display-regular text-xl">Dog</h1>
+              <p class="text-center sora text-12">3 items</p>
             </div>
+            <!-- 2nd Card -->
+            <div
+            class="w-[200px] h-[254px] pt-4 border border-[#F9DF8A] rounded-2xl  bg-[#F9DF8A] text-center"
+          >
+           <div class="border w-[104px] h-[104px] rounded-full items-center bg-[#FFFFFF] mt-6 ml-13">
+            <img src="c1-assets/fish-cartoon.png" class="pt-7 pl-7"  alt="" />
+           </div>
+            <h1 class="text-center adlam-display-regular text-xl">Fish</h1>
+            <p class="text-center sora text-12">3 items</p>
+          </div>
+           <!-- 3rd Card -->
+           <div
+           class="w-[200px] h-[254px] pt-4 border border-[#F9DF8A] rounded-2xl  bg-[#F9DF8A] text-center"
+         >
+          <div class="border w-[104px] h-[104px] rounded-full items-center bg-[#FFFFFF] mt-6 ml-13">
+           <img src="c1-assets/cat-cartoon.png" class="pt-7 pl-7"  alt="" />
+          </div>
+           <h1 class="text-center adlam-display-regular text-xl">cat</h1>
+           <p class="text-center sora text-12">3 items</p>
+         </div>
+          <!-- 4th Card -->
+          <div
+          class="w-[200px] h-[254px] pt-4 border border-[#F9DF8A] rounded-2xl  bg-[#F9DF8A] text-center"
+        >
+         <div class="border w-[104px] h-[104px] rounded-full items-center bg-[#FFFFFF] mt-6 ml-13">
+          <img src="c1-assets/bird-cartoon.png" class="pt-7 pl-7"  alt="" />
+         </div>
+          <h1 class="text-center adlam-display-regular text-xl">Birds</h1>
+          <p class="text-center sora text-12">3 items</p>
+        </div>
+          <!-- 5th Card -->
+          <div
+          class="w-[200px] h-[254px] pt-4 border border-[#F9DF8A] rounded-2xl  bg-[#F9DF8A] text-center"
+        >
+         <div class="border w-[104px] h-[104px] rounded-full items-center bg-[#FFFFFF] mt-6 ml-13">
+          <img src="c1-assets/mouse-cartoon.png" class="pt-7 pl-7"  alt="" />
+         </div>
+          <h1 class="text-center adlam-display-regular text-xl">Small Pet</h1>
+          <p class="text-center sora text-12">3 items</p>
+        </div>
+         <!-- 6th Card -->
+         <div
+         class="w-[200px] h-[254px] pt-4 border border-[#F9DF8A] rounded-2xl  bg-[#F9DF8A] text-center"
+       >
+        <div class="border w-[104px] h-[104px] rounded-full items-center bg-[#FFFFFF] mt-6 ml-13">
+         <img src="c1-assets/rabbit-cartoon.png" class="pt-7 pl-7"  alt="" />
+        </div>
+         <h1 class="text-center adlam-display-regular text-xl">Rabbits</h1>
+         <p class="text-center sora text-12">3 items</p>
+       </div>
           </div>
         </div>
+      </div>
     </main>
     <footer></footer>
   </body>
